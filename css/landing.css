@@ -1,0 +1,350 @@
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: 'Nunito', sans-serif;
+}
+h1 {
+  font-size: 40px;
+}
+h5{
+  font-weight: bold;
+  font-size: 20px;
+}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+p{
+  font-size: 20px;
+}
+@media screen and (max-width: 920px){
+  p{
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+.fs-text-black{
+  color: #000 !important;
+}
+.fs-line-h-22{
+  line-height: 22px;
+}
+.fs-navbar a:hover{
+  text-decoration: none;
+  color: #ffffff !important;
+}
+.fs-bkg-70-transparent{
+  background-color: rgb(255 255 255 / 70%);
+}
+.w3-white a:hover{
+  color: #5d5959 !important;
+}
+.fs-white-text{
+  color: rgb(255, 255, 255);
+}
+.w3-top{
+  font-size: 22px !important;
+}
+.w3-wide {
+  letter-spacing: 8px;
+}
+.w3-hover-opacity {
+  cursor: pointer;
+}
+.w3-button:hover{
+  color: #ffffff!important;
+  text-shadow: 1px 1px 2px #f5a25a, 1px 1px 4px #f5e25a;
+  font-weight: bolder !important;
+}
+.fs-opacity-70{
+  opacity: 70%;
+}
+.fs-padding-section{
+  padding-top:110px!important;
+  padding-bottom:60px!important
+}
+
+
+/* Create a Parallax Effect */
+
+.parallax-window {
+	min-height: 100vh;
+	background: transparent;
+}
+/* carousel hero */
+.fs-carousel{
+  min-height: 100%;
+  height: 100vh;
+  width: 100%;
+}
+.slick-list{
+  height: 100%;
+}
+.slick-slide.fs-carousel-item{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.bgheight{
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.bgwidth{
+  width: 100%;
+}
+.wrapper{
+  position: relative;
+}
+.contenitore{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(121 86 86 / 27%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.fs-hero-text-container{
+  color: #fff;
+  text-shadow: 0px 0px 2px #807777;
+  font-size: 40px;
+}
+.fs-hero-text-container p{
+  font-size: 28px;
+}
+.fs-hero-text-container img{
+  margin-bottom: 10px;
+  -webkit-filter: drop-shadow( 3px 3px 7px rgba(0, 0, 0, .2));
+  filter: drop-shadow( 3px 3px 7px rgba(0, 0, 0, .2));
+}
+.fs-orange-bkg{
+  color: rgb(255 255 255)!important;
+  /* background-color: #d48432; */
+  background-image: url('../images/orange-bkg.jpg');
+}
+
+
+
+/* navbar */
+.w3-top{
+  font-size: 18px;
+}
+.fs-navbar{
+  display: flex; 
+  max-width: 650px; 
+  place-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 55px;
+}
+.fs-navbar a{
+  padding-top: 12px !important;
+}
+.fs-navbar-trasparent .fs-white-text{
+  color: rgb(119, 119, 119) !important;
+}
+.w3-bar{
+  width: auto !important;
+}
+.w3-bar .w3-bar-item{
+  line-height: 55px;
+}
+.fs-navbar-buttons{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+}
+.fs-navbar-buttons .fs-button{
+  z-index: 2;
+}
+
+@media screen and (max-width:850px){
+  .w3-bar .fs-navbar-logo{
+    padding: 8px 0px !important;
+  }
+  .div-navbar{
+    padding: 5px 0px;
+    font-size: 15px;
+  }
+  .div-navbar-login{
+    padding: 0 !important;
+  }
+}
+
+
+/* buttons */
+.fs-button{
+  background-color: rgb(88, 88, 88);
+  border-radius: 2px;
+  border: none;
+  color: rgb(88, 88, 88);
+  display: block;
+  letter-spacing: 1px;
+  margin: 0 2%;
+  /* padding: 2px; */
+  position: relative;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+}
+.fs-button:hover{
+  color: white;
+  text-decoration: none;
+}
+.fs-button-secondary {
+  align-items: center;
+  background: rgb(245, 241, 241);
+  border-radius: 0px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: all 2s;
+  width: 100%;
+  text-transform: none;
+  padding: 3px 8px;
+  transform: none;
+}
+.fs-button:hover .fs-button-secondary{
+  background: transparent;
+  text-decoration: none;
+}
+.fs-button-primary{
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: all .5s;
+  padding: 3px 8px;
+  width: 100%;
+}
+.fs-button-primary:hover{
+  text-shadow: 0px 0px 2px rgb(255, 255, 255);
+  text-decoration: none;
+}
+/* end buttons*/
+
+
+/* what we offer */
+#what-offer{
+  background-image: url('../images/what-we-offer-bkg-dark.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features-card{
+  margin-bottom: auto;
+  background-color: #ffffff2e;
+  border-radius: 4px;
+  margin-top: auto;
+  padding: inherit;
+  height: 100% !important;
+}
+.features-card p{
+  font-size: 16px;
+  color: #efe6e6;
+}
+
+
+/* about us */
+.fs-puzzle-witcare{
+  margin-top: 6%;
+}
+.fs-about-us .card{
+  width: 100%;
+  background-color: transparent;
+  font-family: 'Nunito', sans-serif;
+  font-size: 12px;
+  border: none;
+}
+.card-img, .card-img-top{
+  border-radius: 0;
+}
+.fs-card-line{
+  width: 30px;
+  height: 1px;
+  background-color: rgb(216, 213, 213);
+  margin: auto;
+  margin-top: 5px;
+}
+.fs-about-us .card p{ 
+  line-height: 25px;
+  font-size: 16px;
+}
+
+
+
+
+
+/* contact */
+.fs-contacts-container{
+  width: 80%;
+  margin: auto;
+  color: rgb(116, 114, 115)!important;
+}
+.fs-contacts-container-item{
+  max-width: 500px;
+}
+.fs-contacts-container .card .person-pic{
+  /* nb: the picture MUST be squared*/
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+  margin-top: -50%;
+  margin-left: 10%;
+}
+.fs-contacts-container .card{
+  margin-top: 15%;
+}
+.fs-contacts-container h5{
+  font-size: 18px;
+}
+.fs-contacts-container p{
+  font-size: 14px;
+  padding: 15px;
+}
+@media screen and (max-width: 920px){
+  .fs-contacts-container h5{
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .fs-contacts-container p{
+    font-size: 12px;
+    line-height: 22px;
+  }
+}
+
+.reviwer-name-col{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.fs-contacts-container .card .reviewver-pic{
+  /* nb: the picture MUST be squared*/
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 90%;
+  height: auto;
+  margin-left: 10%;
+}
+.fs-contacts-container .reviwer-name{
+  font-size: 15px;
+  padding: 0;
+}
+#contacts{
+  /* background-image: url("../images/hands.jpg"); */
+  /* background-image: url("../images/contact-dark.jpg"); */
+  /* background-image: url("../images/contact2_2-dark.jpg"); */
+  background-image: url("../images/bkg-contact-dark.jpg");
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
