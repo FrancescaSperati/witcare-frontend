@@ -118,10 +118,10 @@ $(window).scroll(function(){
     //navbar appears only on scroll
     if( window.scrollY > 100 ){
         $('#myNavbar').addClass("w3-card w3-animate-top w3-white fs-navbar-trasparent");
-        $('#fs-logo-img').attr("src","images/logo.png");
+        $('#fs-logo-img').attr("src","images/logo-orizzontale.png");
     } else {
         $('#myNavbar').removeClass("w3-card w3-animate-top w3-white fs-navbar-trasparent");
-        $('#fs-logo-img').attr("src","images/logo.png");
+        $('#fs-logo-img').attr("src","images/logo-orizzontale.png");
     }
 
 });
