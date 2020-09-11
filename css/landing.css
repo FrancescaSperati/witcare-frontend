@@ -39,13 +39,14 @@ p{
 }
 .fs-navbar a:hover{
   text-decoration: none;
-  color: #ffffff !important;
+  color: #F9A026!important;
 }
 .fs-bkg-70-transparent{
   background-color: rgb(255 255 255 / 70%);
 }
 .w3-white a:hover{
-  color: #636363 !important;
+  /* color: #636363 !important; */
+  color: #F5832D!important;
 }
 .fs-white-text{
   color: rgb(255, 255, 255);
@@ -58,11 +59,6 @@ p{
 }
 .w3-hover-opacity {
   cursor: pointer;
-}
-.w3-button:hover{
-  color: #ffffff!important;
-  text-shadow: 1px 1px 2px #F5832D, 1px 1px 4px #F9A026;
-  font-weight: bolder !important;
 }
 .fs-opacity-70{
   opacity: 70%;
