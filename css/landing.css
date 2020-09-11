@@ -1,17 +1,23 @@
-body,h1,h2,h3,h4,h5,h6 {
-  font-family: 'Nunito', sans-serif;
+body, html {
+  font-family: 'Manjari', sans-serif;
+  height: 100%;
+  color: #383838;
+  line-height: 1.8;
+}
+.font2 {
+  font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
 }
 h1 {
   font-size: 40px;
 }
-h5{
-  font-weight: bold;
-  font-size: 20px;
+h3{
+  color: #F5832D;
 }
-body, html {
-  height: 100%;
-  color: #777;
-  line-height: 1.8;
+h5{
+  font-size: 20px;
 }
 p{
   font-size: 20px;
@@ -21,6 +27,9 @@ p{
     font-size: 18px;
     line-height: 26px;
   }
+}
+.fs-w-80{
+  width: 80%;
 }
 .fs-text-black{
   color: #000 !important;
@@ -36,7 +45,7 @@ p{
   background-color: rgb(255 255 255 / 70%);
 }
 .w3-white a:hover{
-  color: #5d5959 !important;
+  color: #636363 !important;
 }
 .fs-white-text{
   color: rgb(255, 255, 255);
@@ -52,7 +61,7 @@ p{
 }
 .w3-button:hover{
   color: #ffffff!important;
-  text-shadow: 1px 1px 2px #f5a25a, 1px 1px 4px #f5e25a;
+  text-shadow: 1px 1px 2px #F5832D, 1px 1px 4px #F9A026;
   font-weight: bolder !important;
 }
 .fs-opacity-70{
@@ -260,7 +269,6 @@ p{
 .fs-about-us .card{
   width: 100%;
   background-color: transparent;
-  font-family: 'Nunito', sans-serif;
   font-size: 12px;
   border: none;
 }
@@ -287,7 +295,7 @@ p{
 .fs-contacts-container{
   width: 80%;
   margin: auto;
-  color: rgb(116, 114, 115)!important;
+  /* color: rgb(116, 114, 115)!important; */
 }
 .fs-contacts-container-item{
   max-width: 500px;
@@ -303,6 +311,9 @@ p{
 }
 .fs-contacts-container .card{
   margin-top: 15%;
+}
+.contacts-name, .contacts-role{
+  color: #383838;
 }
 .fs-contacts-container h5{
   font-size: 18px;
@@ -347,4 +358,10 @@ p{
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover;
+}
+
+/* footer */
+.fs-footer{
+  background-color: #D8D8D8;
+  font-size: 12px;
 }
