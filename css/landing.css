@@ -243,6 +243,7 @@ z-index: 999;
 
 
 /* what we offer */
+
 #what-offer{
   background-image: url('../images/what-we-offer-bkg-dark.jpg');
   background-position: center;
@@ -284,11 +285,11 @@ z-index: 999;
     max-width: 820px;
 }
 .card--1 .card__img, .card--1 .card__img--hover {
-  background-image: url('../images/inas-arancio.png');
+  background-image: url('../images/inas-logo.jpg');
 }
 
 .card--2 .card__img, .card--2 .card__img--hover {
-  background-image: url('../images/coasit-arancio.png');
+  background-image: url('../images/coasit-logo.JPG');
 }
 
 .card__like {
@@ -323,7 +324,8 @@ z-index: 999;
 }
 .card__img--hover {
   transition: 0.2s all ease-out;
-  background-size: cover;
+  /* background-size: cover; */
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
