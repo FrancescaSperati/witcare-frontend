@@ -109,6 +109,27 @@ $(document).ready(function() {
     });
 
     fullscreenImages();
+
+
+    // what we offer card links
+    $( "#card-home-care" ).click(function() {
+        window.open("documenti/Home-Care-Packages.pdf", '_blank');
+    });
+    $( "#card-access-and-support" ).click(function() {
+        window.open("documenti/Access-and-Support-Program.pdf", '_blank');
+    });
+    $( "#card-visitation" ).click(function() {
+        window.open("documenti/Visitation-Program.pdf", '_blank');
+    });
+    $( "#card-social-support" ).click(function() {
+        window.open("documenti/Social-Support-Group.pdf", '_blank');
+    });
+    $( "#card-flexible-respite-care-for-carers" ).click(function() {
+        window.open("documenti/Flexible-Respite-Care-For-Carers.pdf", '_blank');
+    });
+   
+
+    
     
 });
 
