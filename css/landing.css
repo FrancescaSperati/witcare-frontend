@@ -421,12 +421,12 @@ z-index: 999;
 
 /* contact */
 
-#contacts{
+/* #contacts{
   background-image: url("../images/bkg-contact-dark.jpg");
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover;
-} 
+}  */
 
 .contact-form{
   background: #ffffff;
