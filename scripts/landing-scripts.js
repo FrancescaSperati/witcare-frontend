@@ -1,5 +1,12 @@
 var logo_orizzontale = "https://francescasperati.github.io/witcare-frontend/images/logo-orizzontale.png";
 
+var it_Access_and_Support = "https://francescasperati.github.io/witcare-frontend/it/Access-and-Support-Program.html";
+var it_Visitation = "https://francescasperati.github.io/witcare-frontend/it/Visitation-Program.html";
+var it_Social_Support = "https://francescasperati.github.io/witcare-frontend/it/Social-Support-Groups.html";
+var it_Care_For_Carers = "https://francescasperati.github.io/witcare-frontend/it/Flexible-Respite-Care-For-Carers.html";
+var it_Homecare = "https://francescasperati.github.io/witcare-frontend/it/homecare-package.html";
+
+
 function fullscreenImages(){
     var theWindow        = $(window),
         $bg              = $(".fs-carousel-item img"),
@@ -112,22 +119,21 @@ $(document).ready(function() {
 
     fullscreenImages();
 
-
     // what we offer card links
     $( "#card-home-care" ).click(function() {
-        window.open("homecare-package.html", '_blank');
+        window.open(it_Homecare, '_blank');
     });
     $( "#card-access-and-support" ).click(function() {
-        window.open("Access-and-Support-Program.html", '_blank');
+        window.open(it_Access_and_Support, '_blank');
     });
     $( "#card-visitation" ).click(function() {
-        window.open("Visitation-Program.html", '_blank');
+        window.open(it_Visitation, '_blank');
     });
     $( "#card-social-support" ).click(function() {
-        window.open("Social-Support-Groups.html", '_blank');
+        window.open(it_Social_Support, '_blank');
     });
     $( "#card-flexible-respite-care-for-carers" ).click(function() {
-        window.open("Flexible-Respite-Care-For-Carers.html", '_blank');
+        window.open(it_Care_For_Carers, '_blank');
     });
 
     /* parte con i pdf */
