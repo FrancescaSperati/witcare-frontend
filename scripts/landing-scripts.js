@@ -1,3 +1,5 @@
+var logo_orizzontale = "https://francescasperati.github.io/witcare-frontend/images/logo-orizzontale.png";
+
 function fullscreenImages(){
     var theWindow        = $(window),
         $bg              = $(".fs-carousel-item img"),
@@ -113,20 +115,37 @@ $(document).ready(function() {
 
     // what we offer card links
     $( "#card-home-care" ).click(function() {
-        window.open("documenti/Home-Care-Packages.pdf", '_blank');
+        window.open("../homecare-package.html", '_blank');
     });
     $( "#card-access-and-support" ).click(function() {
-        window.open("documenti/Access-and-Support-Program.pdf", '_blank');
+        window.open("../Access-and-Support-Program.html", '_blank');
     });
     $( "#card-visitation" ).click(function() {
-        window.open("documenti/Visitation-Program.pdf", '_blank');
+        window.open("../Visitation-Program.html", '_blank');
     });
     $( "#card-social-support" ).click(function() {
-        window.open("documenti/Social-Support-Group.pdf", '_blank');
+        window.open("../Social-Support-Groups.html", '_blank');
     });
     $( "#card-flexible-respite-care-for-carers" ).click(function() {
-        window.open("documenti/Flexible-Respite-Care-For-Carers.pdf", '_blank');
+        window.open("../Flexible-Respite-Care-For-Carers.html", '_blank');
     });
+
+    /* parte con i pdf */
+    // $( "#card-home-care" ).click(function() {
+    //     window.open("documents/Home-Care-Packages.pdf", '_blank');
+    // });
+    // $( "#card-access-and-support" ).click(function() {
+    //     window.open("documents/Access-and-Support-Program.pdf", '_blank');
+    // });
+    // $( "#card-visitation" ).click(function() {
+    //     window.open("documents/Visitation-Program.pdf", '_blank');
+    // });
+    // $( "#card-social-support" ).click(function() {
+    //     window.open("documents/Social-Support-Group.pdf", '_blank');
+    // });
+    // $( "#card-flexible-respite-care-for-carers" ).click(function() {
+    //     window.open("documents/Flexible-Respite-Care-For-Carers.pdf", '_blank');
+    // });
    
 
     
@@ -139,10 +158,10 @@ $(window).scroll(function(){
     //navbar appears only on scroll
     if( window.scrollY > 100 ){
         $('#myNavbar').addClass("w3-card w3-animate-top w3-white fs-navbar-trasparent");
-        $('#fs-logo-img').attr("src","images/logo-orizzontale.png");
+        $('#fs-logo-img').attr("src",logo_orizzontale);
     } else {
         $('#myNavbar').removeClass("w3-card w3-animate-top w3-white fs-navbar-trasparent");
-        $('#fs-logo-img').attr("src","images/logo-orizzontale.png");
+        $('#fs-logo-img').attr("src",logo_orizzontale);
     }
 
 });

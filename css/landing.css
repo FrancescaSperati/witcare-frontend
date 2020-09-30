@@ -71,7 +71,9 @@ p{
 .fs-box-shadow{
   box-shadow: 0px 13px 10px 2px rgba(0, 0, 0,0.1);
 }
-
+.fs-text-bolder{
+  font-weight: bolder;
+}
 /* Create a Parallax Effect */
 
 .parallax-window {
@@ -185,59 +187,24 @@ z-index: 999;
   }
 }
 
+.flag-link{
+  border: solid 1px #867e7e;
+}
 
 /* buttons */
-.fs-button{
-  background-color: rgb(88, 88, 88);
-  border-radius: 2px;
+.fs-button {
+  width: 100%;
   border: none;
-  color: rgb(88, 88, 88);
-  display: block;
-  letter-spacing: 1px;
-  margin: 0 2%;
-  /* padding: 2px; */
-  position: relative;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 14px;
+  border-radius: 4px;
+  padding: 1.5%;
+  background-image: linear-gradient(90deg, #F5832D, #F9A026);
+  transition: background-image 2000ms ease;
+  color: #fff;
   cursor: pointer;
-  white-space: nowrap;
-  text-align: center;
 }
 .fs-button:hover{
-  color: white;
-  text-decoration: none;
-}
-.fs-button-secondary {
-  align-items: center;
-  background: rgb(245, 241, 241);
-  border-radius: 0px;
-  display: flex;
-  justify-content: center;
-  height: 100%;
-  transition: all 2s;
-  width: 100%;
-  text-transform: none;
-  padding: 3px 8px;
-  transform: none;
-}
-.fs-button:hover .fs-button-secondary{
-  background: transparent;
-  text-decoration: none;
-}
-.fs-button-primary{
-  color: white;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  height: 100%;
-  transition: all .5s;
-  padding: 3px 8px;
-  width: 100%;
-}
-.fs-button-primary:hover{
-  text-shadow: 0px 0px 2px rgb(255, 255, 255);
-  text-decoration: none;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0,0.3);
+  background-image: linear-gradient(90deg,#F9A026, #F5832D );
 }
 /* end buttons*/
 
@@ -414,7 +381,9 @@ z-index: 999;
     margin: 5px !important;
   }
 }
-
+.fs-about-us .card{
+  border: none;
+}
 /* about us */
 /* .fs-puzzle-witcare{
   margin-top: 6%;
@@ -451,16 +420,66 @@ z-index: 999;
 
 
 /* contact */
+
+#contacts{
+  background-image: url("../images/bkg-contact-dark.jpg");
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+} 
+
+.contact-form{
+  background: #ffffff;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 4px;
+}
+.contact-form .form-control{
+  border-radius:4px;
+}
+.contact-image{
+  text-align: center;
+}
+.contact-image img{
+  background-color: #ffffff;
+  border-radius: 6rem;
+  width: 11%;
+  margin-top: -3%;
+  padding: 2%;
+}
+.contact-form form{
+  padding: 10%;
+}
+.contact-form h3{
+  margin-bottom: 2%;
+  margin-top: -10%;
+  text-align: center;
+}
+.alert{
+  display: none;
+  padding: 1.5% 16px;
+  color: white;
+  opacity: 0.8;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+}
+#form-success{
+  background-color: #71bd68cf;
+}
+#form-error{
+  background-color: #f44336;
+}
+
+
+/* 
 .fs-contacts-container{
   width: 80%;
   margin: auto;
-  /* color: rgb(116, 114, 115)!important; */
 }
 .fs-contacts-container-item{
   max-width: 500px;
 }
 .fs-contacts-container .card .person-pic{
-  /* nb: the picture MUST be squared*/
   border: 1px solid rgba(0,0,0,.125);
   border-radius: 50%;
   width: 100%;
@@ -498,7 +517,6 @@ z-index: 999;
   justify-content: center;
 }
 .fs-contacts-container .card .reviewver-pic{
-  /* nb: the picture MUST be squared*/
   border: 1px solid rgb(255, 255, 255);
   border-radius: 50%;
   width: 90%;
@@ -508,16 +526,8 @@ z-index: 999;
 .fs-contacts-container .reviwer-name{
   font-size: 15px;
   padding: 0;
-}
-#contacts{
-  /* background-image: url("../images/hands.jpg"); */
-  /* background-image: url("../images/contact-dark.jpg"); */
-  /* background-image: url("../images/contact2_2-dark.jpg"); */
-  background-image: url("../images/bkg-contact-dark.jpg");
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover;
-}
+}*/
+
 
 /* footer */
 .fs-footer{
@@ -525,3 +535,15 @@ z-index: 999;
   font-size: 12px;
 }
 
+
+/* pagine dei documents */
+.fs-list{
+  list-style-position: inside;
+  padding: 0;
+}
+
+.fs-list span{
+  display: contents;
+  color: #383838;
+  font-weight: bolder;
+}
