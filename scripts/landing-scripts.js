@@ -115,19 +115,19 @@ $(document).ready(function() {
 
     // what we offer card links
     $( "#card-home-care" ).click(function() {
-        window.open("../homecare-package.html", '_blank');
+        window.open("homecare-package.html", '_blank');
     });
     $( "#card-access-and-support" ).click(function() {
-        window.open("../Access-and-Support-Program.html", '_blank');
+        window.open("Access-and-Support-Program.html", '_blank');
     });
     $( "#card-visitation" ).click(function() {
-        window.open("../Visitation-Program.html", '_blank');
+        window.open("Visitation-Program.html", '_blank');
     });
     $( "#card-social-support" ).click(function() {
-        window.open("../Social-Support-Groups.html", '_blank');
+        window.open("Social-Support-Groups.html", '_blank');
     });
     $( "#card-flexible-respite-care-for-carers" ).click(function() {
-        window.open("../Flexible-Respite-Care-For-Carers.html", '_blank');
+        window.open("Flexible-Respite-Care-For-Carers.html", '_blank');
     });
 
     /* parte con i pdf */
