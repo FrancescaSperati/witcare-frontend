@@ -3,6 +3,9 @@ body, html {
   height: 100%;
   color: #383838;
   line-height: 1.8;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
 }
 .font2 {
   font-family: 'Open Sans', sans-serif;

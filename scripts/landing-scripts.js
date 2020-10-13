@@ -1,16 +1,16 @@
 var logo_orizzontale = "https://francescasperati.github.io/witcare-frontend/images/logo-orizzontale.png";
 
-var it_Access_and_Support = "https://francescasperati.github.io/witcare-frontend/it/Access-and-Support-Program.html";
-var it_Visitation = "https://francescasperati.github.io/witcare-frontend/it/Visitation-Program.html";
-var it_Social_Support = "https://francescasperati.github.io/witcare-frontend/it/Social-Support-Groups.html";
-var it_Care_For_Carers = "https://francescasperati.github.io/witcare-frontend/it/Flexible-Respite-Care-For-Carers.html";
-var it_Homecare = "https://francescasperati.github.io/witcare-frontend/it/homecare-package.html";
+var Access_and_Support = "Access-and-Support-Program.html";
+var Visitation = "Visitation-Program.html";
+var Social_Support = "Social-Support-Groups.html";
+var Care_For_Carers = "Flexible-Respite-Care-For-Carers.html";
+var Homecare = "homecare-package.html";
 
-var it_Domande_di_pensione = "https://francescasperati.github.io/witcare-frontend/it/Domande-di-pensione.html";
-var it_Variazione_di_residenza = "https://francescasperati.github.io/witcare-frontend/it/Variazione-di-residenza.html";
-var it_Variazione_coordinate_bancarie = "https://francescasperati.github.io/witcare-frontend/it/Variazione-coordinate-bancarie.html";
-var it_Modello_RED_estero = "https://francescasperati.github.io/witcare-frontend/it/Modello-RED.html";
-var it_Esistenza_in_vita = "Esistenza-in-Vita.html";
+var Domande_di_pensione = "Domande-di-pensione.html";
+var Variazione_di_residenza = "Variazione-di-residenza.html";
+var Variazione_coordinate_bancarie = "Variazione-coordinate-bancarie.html";
+var Modello_RED_estero = "Modello-RED.html";
+var Esistenza_in_vita = "Esistenza-in-Vita.html";
 
 
 
@@ -131,34 +131,34 @@ $(document).ready(function() {
 
     // what we offer card links
     $( "#card-home-care" ).click(function() {
-        window.open(it_Homecare, '_blank');
+        window.open(Homecare, '_blank');
     });
     $( "#card-access-and-support" ).click(function() {
-        window.open(it_Access_and_Support, '_blank');
+        window.open(Access_and_Support, '_blank');
     });
     $( "#card-visitation" ).click(function() {
-        window.open(it_Visitation, '_blank');
+        window.open(Visitation, '_blank');
     });
     $( "#card-social-support" ).click(function() {
-        window.open(it_Social_Support, '_blank');
+        window.open(Social_Support, '_blank');
     });
     $( "#card-flexible-respite-care-for-carers" ).click(function() {
-        window.open(it_Care_For_Carers, '_blank');
+        window.open(Care_For_Carers, '_blank');
     });
     $( "#card-Domande-di-pensione" ).click(function() {
-        window.open(it_Domande_di_pensione, '_blank');
+        window.open(Domande_di_pensione, '_blank');
     });
     $( "#card-Variazione-di-residenza" ).click(function() {
-        window.open(it_Variazione_di_residenza, '_blank');
+        window.open(Variazione_di_residenza, '_blank');
     });
     $( "#card-Variazione-coordinate-bancarie" ).click(function() {
-        window.open(it_Variazione_coordinate_bancarie, '_blank');
+        window.open(Variazione_coordinate_bancarie, '_blank');
     });
     $( "#card-Modello-RED-estero" ).click(function() {
-        window.open(it_Modello_RED_estero, '_blank');
+        window.open(Modello_RED_estero, '_blank');
     });
     $( "#card-Esistenza-in-vita" ).click(function() {
-        window.open(it_Esistenza_in_vita, '_blank');
+        window.open(Esistenza_in_vita, '_blank');
     });
 
     /* parte con i pdf */
