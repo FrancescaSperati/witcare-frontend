@@ -145,21 +145,20 @@ $(document).ready(function() {
     $( "#card-flexible-respite-care-for-carers" ).click(function() {
         window.open(it_Care_For_Carers, '_blank');
     });
-    
     $( "#card-Domande-di-pensione" ).click(function() {
-        window.open(it_Homecare, '_blank');
+        window.open(it_Domande_di_pensione, '_blank');
     });
     $( "#card-Variazione-di-residenza" ).click(function() {
-        window.open(it_Access_and_Support, '_blank');
+        window.open(it_Variazione_di_residenza, '_blank');
     });
     $( "#card-Variazione-coordinate-bancarie" ).click(function() {
-        window.open(it_Visitation, '_blank');
+        window.open(it_Variazione_coordinate_bancarie, '_blank');
     });
     $( "#card-Modello-RED-estero" ).click(function() {
-        window.open(it_Social_Support, '_blank');
+        window.open(it_Modello_RED_estero, '_blank');
     });
     $( "#card-Esistenza-in-vita" ).click(function() {
-        window.open(it_Care_For_Carers, '_blank');
+        window.open(it_Esistenza_in_vita, '_blank');
     });
 
     /* parte con i pdf */
