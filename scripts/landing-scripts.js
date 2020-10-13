@@ -8,7 +8,7 @@ var it_Homecare = "https://francescasperati.github.io/witcare-frontend/it/homeca
 
 var it_Domande_di_pensione = "https://francescasperati.github.io/witcare-frontend/it/Domande-di-pensione.html";
 var it_Variazione_di_residenza = "https://francescasperati.github.io/witcare-frontend/it/Variazione-di-residenza.html";
-var it_Variazione_coordinate_bancarie = "https://francescasperati.github.io/witcare-frontend/it/Variazione-di-residenza.html.html";
+var it_Variazione_coordinate_bancarie = "https://francescasperati.github.io/witcare-frontend/it/Variazione-coordinate-bancarie.html";
 var it_Modello_RED_estero = "https://francescasperati.github.io/witcare-frontend/it/Modello-RED.html";
 var it_Esistenza_in_vita = "https://francescasperati.github.io/witcare-frontend/it/Esistenza-in-Vita.html";
 
