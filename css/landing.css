@@ -245,8 +245,17 @@ z-index: 999;
 .features-card p{
   font-size: 16px;
   color: #efe6e6;
+  font-weight: 700;
 }
-
+.features-card a{
+  line-height: 15px;
+  font-weight: 100;
+  display: block;
+  font-size: 11px;
+}
+.fs-fit-content{
+  width: fit-content;
+}
 .fs-logo-piccolo{
   max-width: 150px;
 }
