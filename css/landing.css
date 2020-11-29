@@ -184,7 +184,12 @@ z-index: 999;
 .fs-navbar-buttons .fs-button{
   z-index: 2;
 }
-
+@media screen and (min-width:767px){
+  #fs-logo-img{
+    width: 100% !important;
+    height: intrinsic !important;
+  }
+}
 @media screen and (max-width:850px){
   .w3-bar .fs-navbar-logo{
     padding: 8px 0px !important;
