@@ -31,7 +31,7 @@ function fullscreenImages(){
 // document ready event functions 
 $(document).ready(function() {
 
-    // carousel hero
+    // // carousel hero
     $('.fs-carousel').slick({
         autoplay:true,
         dots: false,
@@ -39,8 +39,10 @@ $(document).ready(function() {
         focusOnSelect: true,
         fade: true,
         speed: 100,
-        pauseOnHover: false
+        pauseOnHover: false,
+        adaptiveHeight: true
     });
+    
     // parallax carousel on hero
     $('.parallax-window').parallax({
         naturalWidth: 1920,
